@@ -1,0 +1,13 @@
+Usage: getevent [-t] [-n] [-s switchmask] [-S] [-v [mask]] [-d] [-p] [-i] [-l] [-q] [-c count] [-r] [device]
+    -t: show time stamps
+    -n: don't print newlines
+    -s: print switch states for given bits
+    -S: print all switch states
+    -v: verbosity mask (errs=1, dev=2, name=4, info=8, vers=16, pos. events=32, props=64)
+    -d: show HID descriptor, if available
+    -p: show possible events (errs, dev, name, pos. events)
+    -i: show all device info and possible events
+    -l: label event types and names in plain text
+    -q: quiet (clear verbosity mask)
+    -c: print given number of events then exit
+    -r: print rate events are received

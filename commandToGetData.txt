@@ -1,0 +1,1 @@
+./adb shell getevent -i > /Users/dennis/Documents/sensorData.txt
